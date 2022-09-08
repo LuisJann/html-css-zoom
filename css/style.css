@@ -10,6 +10,22 @@
     width: 100%;
 }
 
+.white{
+    color: white;
+}
+
+.green{
+    color: greenyellow;
+}
+
+.red{
+    color: red;
+}
+
+.transform{
+    transform: rotate(-90deg);
+}
+
 
 .screen-box{
     padding-left: 50px;
@@ -37,6 +53,7 @@
 .name{
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0 5px 0 0;
     position: absolute;
     top: 75px;
     padding: 5px;
@@ -48,4 +65,57 @@
     width: 100vw;
     background-color: #222222;
     margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
 }
+
+.action{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.footer-center{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.action-center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.footer-right{
+    display: flex;
+    width: 130px;
+    height: 80px;
+    align-items: center;
+    background-color: #4a4a4a;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 1.5em;
+}
+
+.text{
+    font-size: .7em;
+    padding-top: 5px;
+}
+
+.arrow{
+    font-size: .7em;
+    padding-left: 10px;
+    
+}
+
